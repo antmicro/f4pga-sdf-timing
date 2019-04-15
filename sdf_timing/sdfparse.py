@@ -2,9 +2,9 @@
 
 import argparse
 import json
-import sdflex
+from sdf_timing import sdflex
 
-import sdfyacc
+from sdf_timing import sdfyacc
 
 
 def parse(input):
